@@ -1,1 +1,93 @@
-/node_modules
+# ==========================
+# 📦 Node.js + React Project
+# ==========================
+
+# --- Dependencies ---
+node_modules/
+**/node_modules/
+
+# --- Environment Variables ---
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# --- Logs ---
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# --- Build Directories ---
+# React build
+client/build/
+client/dist/
+
+# Node build
+server/dist/
+server/build/
+server/coverage/
+server/.tsbuildinfo
+
+# --- Cache ---
+.cache/
+client/.parcel-cache/
+.next/
+out/
+.tmp/
+temp/
+*.tmp
+*.temp
+
+# --- IDE & OS Files ---
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Test Files ---
+coverage/
+.nyc_output/
+jest-cache/
+jest-test-results.json
+
+# --- Docker ---
+docker-compose.override.yml
+docker-compose.override.yaml
+.docker/
+*.pid
+*.seed
+*.pid.lock
+
+# --- Optional Tools ---
+# TypeScript
+*.tsbuildinfo
+
+# PM2 logs and process files
+.pids
+pm2.log
+pm2.pid
+ecosystem.config.js
+
+# --- Environment Specific ---
+# dotenv backups
+.env.bak
+.env.backup
+
+# --- Local Development Files ---
+# If you use local storage or uploads
+uploads/
+tmp/
+storage/
+.local_storage/
+.local_uploads/
